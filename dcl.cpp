@@ -7,7 +7,7 @@ struct Node{
 }*pthis,*pnew,*ptemp,*head;
 int data,choice;
 void create(){
-  
+  //Double circular linked list creation
     cout<<"Enter data: ";
     cin>>data;
     pnew=new(struct Node);
